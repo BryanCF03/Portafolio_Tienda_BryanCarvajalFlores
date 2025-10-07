@@ -71,7 +71,7 @@ public class ProjectConfig implements WebMvcConfigurer {
            registro.addInterceptor(localeChangeInterceptor());
        }
 
-       //Bean para poder acceder a los messages.properties en código...
+       //Bean para poder acceder a los messages.properties en código... (traduccion)
        @Bean("messageSource")
        public MessageSource messageSource() {
            ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
