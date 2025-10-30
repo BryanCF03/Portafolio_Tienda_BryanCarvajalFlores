@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Firebase (personalizado) ###
+src/main/resources/firebase/
